@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="vfs.s3"
+  version="1.0.0"
+  name="S3 support"
+  provider-name="Robin Slot">
+  <requires>@ADDON_DEPENDS@</requires>
+  <extension
+    point="kodi.vfs"
+    protocols="s3"
+    files="true"
+    filedirectories="true"
+    directories="true"
+    encodedhostname="true"
+    supportDialog="true"
+    supportPath="true"
+    supportUsername="true"
+    supportPassword="true"
+    supportPort="true"
+    supportBrowsing="false"
+    supportWrite="false"
+    defaultPort="3900"
+    label="30000"
+    library_@PLATFORM@="@LIBRARY_FILENAME@" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">S3 file backend</summary>
+    <description lang="en_GB">TODO</description>
+    <platform>@PLATFORM@</platform>
+  </extension>
+</addon>

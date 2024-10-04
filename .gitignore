@@ -1,0 +1,8 @@
+*.so.*
+*.so
+*.cmake
+CMakeFiles/
+CMakeCache.txt
+install_manifest.txt
+Makefile
+vfs.s3/addon.xml
